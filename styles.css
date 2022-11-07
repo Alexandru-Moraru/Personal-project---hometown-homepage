@@ -4,6 +4,13 @@ body {
   font-family: 'Happy Monkey', cursive;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+    width: 100%;
+  }
+}
+
 #cazino-img, #mamaia-img, #neversea-img {
   width: 150px;
   height: 150px;
